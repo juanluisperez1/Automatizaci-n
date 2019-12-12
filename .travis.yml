@@ -13,7 +13,6 @@ python:
 install:
 - pip install -r requirements.txt
 - pip install codacy-coverage
-- pip install flake8
 script:
 - cd decide
 - cp travis_local_settings.py local_settings.py
@@ -21,7 +20,6 @@ script:
 - python ./manage.py test --keepdb
 - coverage xml
 - python-codacy-coverage -r coverage.xml
-- flake8 .
 deploy:
   provider: heroku
   app: egc-app3
