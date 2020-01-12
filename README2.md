@@ -88,16 +88,49 @@ En este procedimiento de cambio cabe remarcar de a pesar de que influyan dos mó
 
 El cambio de votación que vamos a proponer es añadir un nuevo tipo de votación al módulo de votación.
 
-
 1º Se crea la issue correspondiente a esa tarea y la coloca en la columna new. La issue al ser una issue que añadirá nuevas características al sistema deberá usar la plantilla feat y rellenar los diferentes campos que aparecen al seleccionar la plantilla.
 
 2º Una vez esa issue esta en new, otro del miembro del equipo la pasará a la columna accepted si considerá que le cambio es apropiado, con el fin de que autorizar a realizar esa tarea.
 
 4º Seguido a esto el desarrollador se asignará a la tarea y podrá moverla a la parte de started cuando este decida ponerse a trabajar en la issue en cuestión
 
-5º El paso siguiente sería elegir la ramas, en nuestro repositorio, las ramas se crean en función de las issues épicas y esta últimas a su vez referencian también a una o varias issues, en nuestro caso la tarea de añadir un nuevo tipo de voting referenciaría a 
+5º El paso siguiente sería elegir la ramas, como en este caso las issues no tienen asociadas una épica, se acabrían finalmente en la rama de develop
 
-6º Una vez
+6º Una sabemos ya en la rama la cual vamos a desarrollar, realizamos un git pull para asegurarnos que en todo momento disponemos de la ultima versión del proyecto
+
+7º Tras haber realizado el pull, nos disponemos a añadir la funcionalidad, abrimos el proyecto decide en visual Studio, en Open -> Open Folder y elegimos la carpeta wue contiene el proyecto decide. Ya comenzamos a desarrollar la funcionalidad, en concreto deberiamos tocar en el módulo de vonting al models.py y ahí que añadir un nuevo atributo al atributo tipe del modelo de voting.
+
+8º Una vez que tenemos todo listo nos disponemos a probra la aplicación, primero eliminamos la base de datos y creamos una nueva para evitar problemas para ello ejecutamos la siguiente secuencia de comandos.
+
+  sudo su - postgres
+  psql -c "drop database decide"
+  psql -c "create database decide owner decide"
+  
+ 9º Tras haber eliminado y creado la base de datos, usa el python3 ./manage.py migrate para aplicar las migraciones, tras esto podemos cargar opcionalmente la base de datos si es necesario con python3 ./manage.py loaddata DecideDB.json para popular la base de datos.
+ 
+ 10º Una vez realizado el paso anterior, probamos que la aplicación en local python3 ./manage.py runserver, y entramos en el navegador y ponemos localhost:8000/admin, nos logueamos con user1 password:decide2020, datos que se encuentren en loaddata, en el caso que no hagamos en loaddata añadimos un administrador ejecutando el siguiente comando python3 ./manage.py createsuperuser
+ 
+ 11º Clickamos en votings, le damos a add voting y procedemos a añadir una votación y completar el ciclo de votación por completo
+ 
+ 12º Una vez comprabado que funciona todo correctamente, antes de subir a la rama develop ejecutamos los test para asegurarnos del funcionamiento python3 ./manage.py test
+ 
+ 13º Una vez conseguido el output adecuado nos disponemos a añadir estos cambios al repositorio en remoto
+ 
+ 14º Configuramos la plantilla de git que está estipulada, para ello usamos el comando git config commit.template PATH
+ 
+ 15º Para realizar el paso anterior añadimos los cambios del stage area con git add <nombredelarchivo> y posteriormente se commitean con git commit y rellenamos todos los campos que apracen la plantilla indicado en el header feat: Add voting new tipe, describiendo en el body el cambio realizado y finalmente haciendo referencia a la issue que afecta al cambio #nº_de_la_issue_creada_anteriormente
+  
+ 16º Tras es usamos ctrl+O, seguido de entern a continuación usamos ctrl+x
+ 
+ 17º Pusheamos a la rama develop y ya tenemos nuestros cambios en el repositorio en remoto. Es entonces cuando comienza la build en travis cli que pretende realizar un build para volver que todo esta de acuerdo a lo establecido, a esto se suma que pasamos nuestra tarea del tablero de started a fixed, puesto que la tarea esta ya realizada.
+ 
+ 18º Otro desarrollador comprueba la funcionalida hecha y la pasa a la columna verified
+ 
+ 19º Si todo lo anterior ha sido correcto el desarrollador merge de la rama develop a master, asociandole la release correspondiente si fuera necesaria
+ 
+ 20º Una vez que realicemos push a master, se volverá a realizar una build de travis identica a la que se realizó en develop, solo que en esta también se le añade el despliegue automático en heroku
+ 
+ 21º Una vez realizado todos los paso anteriores procedemos, a loguearnos en heroku usuario:admin   password:admin1234567890, en la url http://decidemoltres-votacion.herokuapp.com/
 
 
 
