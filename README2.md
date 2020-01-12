@@ -18,12 +18,12 @@ En proyecto se ha seguido desarrollándose en las tecnologías en los que fueron
 
 Miembro del equipo  | Horas | Commits | LoC | Test | Issues | Incremento |
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- | 
-[Pérez Barrera, Juan Luis](https://github.com/juanluisperez1) | HH | XX | YY | ZZ | II | Descripción breve 
-[Aguza Barragán, Jose Manuel](https://github.com/Aguza5) | HH | XX | YY | ZZ | II | Descripción breve 
-[Ripoll Torejón, Pablo](https://github.com/PabloRT98) | HH | XX | YY | ZZ | II | Descripción breve 
-[García Limones, Raúl](https://github.com/raugarlim) | HH | XX | YY | ZZ | II | Descripción breve 
-[Castro Cachero, Álvaro Juan](https://github.com/alvcascac) | HH | XX | YY | ZZ | II | Descripción breve 
-**TOTAL** | tHH  | tXX | tYY | tZZ | tII | Descripción breve 
+[Pérez Barrera, Juan Luis](https://github.com/juanluisperez1) | -- | XX | ZZ | 6 | 7 | Creación API Political Party 
+[Aguza Barragán, Jose Manuel](https://github.com/Aguza5) | -- | XX | YY | 5 | 14 | Creación de las Primary Elections 
+[Ripoll Torejón, Pablo](https://github.com/PabloRT98) | -- | XX | YY | ZZ | 9 | Creación de las Senate Elections 
+[García Limones, Raúl](https://github.com/raugarlim) | -- | XX | YY | 5 | 9 | Creación de las Presidenciales Elections y métedo de API de voting 
+[Castro Cachero, Álvaro Juan](https://github.com/alvcascac) | -- | XX | 4 | ZZ | 9 | Tipo de votación other, que incluyes repuestas yes/no auto generadas
+**TOTAL** | --  | tXX | tYY | tZZ | tII | Implementación de las votaciones estipuladas en el pliego, añadiendo también una API para accerder a las votaciones 
 
 La tabla contiene la información de cada miembro del proyecto y el total de la siguiente forma: 
   * Commits: solo contar los commits hechos por miembros del equipo, no lo commits previos
