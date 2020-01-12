@@ -38,9 +38,9 @@ La tabla contiene la información de cada miembro del proyecto y el total de la 
 
 En este apartado citamos todos los equipos con los que hemos realizado la integración, cabe destacar que un principio intentamos realizar la integración continua con todos los módulos, pero por falta de comunicación, así como falta de la realización de nuestras peticiones, por su parte, no hemos podido integranos con el módulo de censo 
 
-* Cabina(https://github.com/decide-moltres/decide-cabina-angular):Nos han realizado peticiones de una API para obtener las votaciones dado el id de un usuario parar ello le hemos facilitado una API para que pudieran ir probando  su desarrollo para ello desplegamos una versión del módulo voting en heroku en el cual se podía realizar llamdas a la API REST para hacer consultas consulta de los datos almacenados en Decide
+* Cabina(https://github.com/decide-moltres/decide-cabina-angular): Nos han realizado peticiones de una API para obtener las votaciones dado el id de un usuario parar ello le hemos facilitado una API para que pudieran ir probando  su desarrollo para ello desplegamos una versión del módulo voting en heroku en el cual se podía realizar llamdas a la API REST para hacer consultas consulta de los datos almacenados en Decide
 
-* Visualización(https://github.com/decide-moltres/decide-visualizacion): nos proporcionan los cambios en el repositorio general y nos intregamos con ellos a través de pull request
+* Visualización(https://github.com/decide-moltres/decide-visualizacion): Nos proporcionan los cambios en el repositorio general y nos intregamos con ellos a través de pull request
 
 * Autenticación(https://github.com/decide-moltres/decide-Auth): Les hemos rrealizado unas series de peticiones, que nos han resuleto y nos las han commiteado directametne  anuestro repositorio puesto que eran imprecimdibles para seguir con el desarrollo de nuestro proyecto
 
