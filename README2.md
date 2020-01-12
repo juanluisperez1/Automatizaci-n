@@ -18,13 +18,15 @@ En proyecto se ha seguido desarrollándose en las tecnologías en los que fueron
 
 Miembro del equipo  | Horas | Commits | LoC | Test | Issues | Incremento |
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- | 
-[Pérez Barrera, Juan Luis](https://github.com/juanluisperez1) | -- | XX | ZZ | 6 | 7 | Creación API Political Party 
-[Aguza Barragán, Jose Manuel](https://github.com/Aguza5) | -- | XX | YY | 5 | 14 | Creación de las Primary Elections 
-[Ripoll Torejón, Pablo](https://github.com/PabloRT98) | -- | XX | YY | ZZ | 9 | Creación de las Senate Elections 
-[García Limones, Raúl](https://github.com/raugarlim) | -- | XX | YY | 5 | 9 | Creación de las Presidenciales Elections y métedo de API de voting 
-[Castro Cachero, Álvaro Juan](https://github.com/alvcascac) | -- | XX | 4 | ZZ | 9 | Tipo de votación other, que incluyes repuestas yes/no auto generadas
-**TOTAL** | --  | tXX | tYY | tZZ | tII | Implementación de las votaciones estipuladas en el pliego, añadiendo también una API para accerder a las votaciones 
+[Pérez Barrera, Juan Luis](https://github.com/juanluisperez1) | -- | 10 | ZZ | 6 | 7 | Creación API Political Party 
+[Aguza Barragán, Jose Manuel](https://github.com/Aguza5) | -- | 27 | YY | 5 | 14 | Creación de las Primary Elections 
+[Ripoll Torejón, Pablo](https://github.com/PabloRT98) | -- | 24 | YY | ZZ | 10 | Creación de las Senate Elections 
+[García Limones, Raúl](https://github.com/raugarlim) | -- | 19 | YY | 5 | 9 | Creación de las Presidenciales Elections y métedo de API de voting 
+[Castro Cachero, Álvaro Juan](https://github.com/alvcascac) | -- | 7 | YY | 4 | 9 | Tipo de votación other, que incluyes repuestas yes/no auto generadas
+**TOTAL** | --  | 90 | tYY | 20 | 49 | Implementación de las votaciones estipuladas en el pliego, añadiendo también una API para accerder a las votaciones 
 
+  *anotación en este apartado no hemos incluido las horas que cada miembro ha invertido en el proyecto puesto que consideramos que todos los miembros del equipo hemos invertido la misma cantidad de tiempo en cada una de las tareas que teniamos asignadas
+  
 La tabla contiene la información de cada miembro del proyecto y el total de la siguiente forma: 
   * Commits: solo contar los commits hechos por miembros del equipo, no lo commits previos
   * LoC (líneas de código): solo contar las líneas producidas por el equipo y no las que ya existían o las que se producen al incluir código de terceros
