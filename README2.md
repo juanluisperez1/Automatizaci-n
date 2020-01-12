@@ -1,13 +1,13 @@
-### Resumen Ejecutuvo
+#### Resumen Ejecutuvo
 
 El objetivo de este proyecto es ampliar la funcionalidad de un proyecto educativo llamado decide, que consiste en una plataforma de voto electrónico. Este proyecto tiene el fin de poder acercar al alumno a trabajar con proyecto que se podrán encontrar en un futuro cercano cuando desempeñe su actividad laboral, así como tratar de enseñar al alumno los métodos básicos de gestión de incidencias y código fuente que se llevan a cabo durante un proyecto software. Para más información acerca del proyecto Decide consulte la siguiente página: https://github.com/decide-moltres/decide
 
-###Alcance del proyecto
+### Alcance del proyecto
 
 Para llevar a cabo este aprendizaje en concreto se nos ha asignado uno de los submódulos que forma Decide.
 En concreto en este grupo hemos desarrollado en módulo de votación implementado, funcionalidad que se exigía en el pliego de la asignatura, así como funcionalidad extra que nos han pedido otros grupos que tenían otros submódulos de Decide, que deseaban hacer operaciones con el submódulo voting. Esta funcionalidad se caracteriza por implementar las elecciones de primarias, senado y presidenciales, así como ofrecer una API Rest de Voting y Political Parties para que el resto e los módulos puedan usar toda la información a través de la consulta de una url.
 
-###Tecnologías empleadas
+### Tecnologías empleadas
 
 En proyecto se ha seguido desarrollándose en las tecnologías en los que fueron creados en un principio, por lo que para el desarrollo hemos continuado usando Python en su versión 3.6, en el framework Django, y como base de datos hemos usado Postgres. También hemos empleado otras tecnologías como Travis, Heroku, Codacy, que se explican en el apartado tattal
 
@@ -41,7 +41,7 @@ Equipos con los que se ha integrado y los motivos por lo que lo ha hecho y lugar
 
 
 
-### Visión global del proceso de desarrollo 
+#### Visión global del proceso de desarrollo 
 
 En el siguiente apartado se dará una visión de los procesos seguidos durante el transcurso del proyecto.
 
