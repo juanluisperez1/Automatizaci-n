@@ -84,5 +84,23 @@ A este matiz, se suma de que para que los grupos dispongan de esa funcionalidad 
 En este procedimiento de cambio cabe remarcar de a pesar de que influyan dos módulos diferentes, al no existir un equipo encargado de un submódulo, el cambio deberá ser realizado por el módulo que haya realizado esa petición de cambio. Siguiendo así los pasos estipulados en el primer punto de está sección
 
 
+* Incremento funcional
+
+El cambio de votación que vamos a proponer es añadir un nuevo tipo de votación al módulo de votación.
+
+
+1º Se crea la issue correspondiente a esa tarea y la coloca en la columna new. La issue al ser una issue que añadirá nuevas características al sistema deberá usar la plantilla feat y rellenar los diferentes campos que aparecen al seleccionar la plantilla.
+
+2º Una vez esa issue esta en new, otro del miembro del equipo la pasará a la columna accepted si considerá que le cambio es apropiado, con el fin de que autorizar a realizar esa tarea.
+
+4º Seguido a esto el desarrollador se asignará a la tarea y podrá moverla a la parte de started cuando este decida ponerse a trabajar en la issue en cuestión
+
+5º El paso siguiente sería elegir la ramas, en nuestro repositorio, las ramas se crean en función de las issues épicas y esta últimas a su vez referencian también a una o varias issues, en nuestro caso la tarea de añadir un nuevo tipo de voting referenciaría a 
+
+
+
+ 
+ 
+
 
 
