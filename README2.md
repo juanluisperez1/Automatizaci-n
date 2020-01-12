@@ -25,7 +25,7 @@ Miembro del equipo  | Horas | Commits | LoC | Test | Issues | Incremento |
 [Castro Cachero, Álvaro Juan](https://github.com/alvcascac) | -- | 7 | YY | 4 | 9 | Tipo de votación other, que incluyes repuestas yes/no auto generadas
 **TOTAL** | --  | 90 | tYY | 20 | 49 | Implementación de las votaciones estipuladas en el pliego, añadiendo también una API para accerder a las votaciones 
 
-  *anotación en este apartado no hemos incluido las horas que cada miembro ha invertido en el proyecto puesto que consideramos que todos los miembros del equipo hemos invertido la misma cantidad de tiempo en cada una de las tareas que teniamos asignadas
+  _anotación en este apartado no hemos incluido las horas que cada miembro ha invertido en el proyecto puesto que consideramos que todos los miembros del equipo hemos invertido la misma cantidad de tiempo en cada una de las tareas que teniamos asignadas_
   
 La tabla contiene la información de cada miembro del proyecto y el total de la siguiente forma: 
   * Commits: solo contar los commits hechos por miembros del equipo, no lo commits previos
