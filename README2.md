@@ -97,6 +97,8 @@ El cambio de votación que vamos a proponer es añadir un nuevo tipo de votació
 
 5º El paso siguiente sería elegir la ramas, en nuestro repositorio, las ramas se crean en función de las issues épicas y esta últimas a su vez referencian también a una o varias issues, en nuestro caso la tarea de añadir un nuevo tipo de voting referenciaría a 
 
+6º Una vez
+
 
 
  
